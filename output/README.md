@@ -1,0 +1,1 @@
+This dicrectory is used for storing the tempopary outputs of model.

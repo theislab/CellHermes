@@ -1,0 +1,1 @@
+This dicrectory is used for storing the model checkpoints, which can be downloaded from previous superlinks

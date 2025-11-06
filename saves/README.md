@@ -1,0 +1,1 @@
+This dicrectory is used for storing the model checkpoints from Llama-factory training.
