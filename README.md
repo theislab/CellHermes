@@ -146,5 +146,6 @@ python ./scripts/CellHermes_as_explainer_for_reasoning.py \
 We gratefully acknowledge the use some of codes from the following projects: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [scGPT](https://github.com/bowang-lab/scGPT), [GenePT](https://github.com/yiqunchen/GenePT). Our work builds upon their foundational contributions.
 
 ## 🔖 Citation  
+Yicheng Gao et al. Language may be all omics needs: Harmonizing multimodal data for omics understanding with CellHermes, biorxiv, 2025.
 ## 😀 Contacts
  gao.yicheng.98@gmail.com
