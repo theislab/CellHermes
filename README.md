@@ -12,7 +12,7 @@
   <br>
 ## 💡 Introduction 
 This repository hosts the official implementation of CellHermes, a framework that can unify heterogeneous single-cell omics data by existing LLMs. Upon powerful capabilitz of LLMs, such as text-based understanding and reasoning, we can used it as encoder, predictor and explainer. This design allows CellHermes to span the entire research loop from representation learning to prediction and interpretability.
-<p align="center"><img src="https://github.com/bm2-lab/CellHermes/blob/main/img/overview.png" alt="CellHermes" width="900px" /></p> 
+<p align="center"><img src="https://github.com/bm2-lab/CellHermes/blob/main/img/framework.png" alt="CellHermes" width="900px" /></p> 
 
 ## 🔧 Environment
 Our experiments were conducted on python=3.10.15 and our CUDA version is 12.6.
