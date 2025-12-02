@@ -147,5 +147,5 @@ with torch.no_grad():
 
 # 2. get the last hidden embeddings
 last_hidden_last_word_embs = [token_embs[:,-1,:] for token_embs in generate_outputs]
-joblib.dump(last_word_gene_embs, f"{args_input.output_file}")
+joblib.dump(last_hidden_last_word_embs, f"{args_input.output_file}")
 
