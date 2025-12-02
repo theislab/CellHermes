@@ -19,11 +19,6 @@ import seaborn as sns
 from tqdm import tqdm
 import random
 import argparse
-random.seed(888)
-np.random.seed(888)
-torch.cuda.manual_seed(888)
-torch.manual_seed(888)
-torch.cuda.manual_seed_all(888)
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-m","--model_dir", required = True, help = "Path the pretrained model file")
