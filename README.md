@@ -43,7 +43,7 @@ We release these variants of ​​CellHermes​​. Please download to the `mod
 
 ### 📚 Data
 
-We provide the dataset in [Zenodo](https://zenodo.org/). Please download the data to the project directory and use the following command to extract it:
+We provide the dataset in [Zenodo](https://zenodo.org/records/17350210). Please download the data to the project directory and use the following command to extract it:
 ```bash
 cd data
 unzip pretrain_datasets.zip
