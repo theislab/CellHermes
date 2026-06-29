@@ -81,7 +81,7 @@ The overall directory structure of the project is as follows:
 
 ### 🚀 Training
 
-Model training is conducted on 2 NVIDIA RTX A6000 GPUs.
+Model training is conducted on 2 NVIDIA RTX A6000 GPUs. The reinforcement learning of CellHermes is conducted on 2 NVIDIA A100 with [verl](https://github.com/verl-project/verl).
 
 ```bash
 conda activate CellHermes
