@@ -90,7 +90,7 @@ The overall directory structure of the project is as follows:
 ### 🚀 Training
 
 Model training is conducted on 2 NVIDIA RTX A6000 GPUs. The reinforcement learning of CellHermes is conducted on 2 NVIDIA A100 with [verl](https://github.com/verl-project/verl).
-The cell_sentence_sft_dataset.json should be divided into two parts: cell_sentence_sft_dataset_ar.json and cell_sentence_sft_dataset_mlm.json based on the instruction categories.
+The cell_sentence_sft_dataset.json should be divided into two parts: cell_sentence_sft_ar.json and cell_sentence_sft_mlm.json based on the instruction categories.
 ```bash
 conda activate CellHermes
 cd LLama_factory_v0.9.1.dev0 
