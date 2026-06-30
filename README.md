@@ -36,10 +36,12 @@ pip install -e ".[torch,metrics]"
 We release these variants of ​​CellHermes​​. Please download to the `model_ckpt` directory.
 | Model Name | Stage | Description |
 |------------|-----------| -------|
-| [LLaMA-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)   | Base | The base LLM used in this study |
+| [LLaMA-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)   | Base | The main base LLM used in this study |
 | [CellHermes](https://huggingface.co/EthanGao123/CellHermes-v1.0)   | Pretraining | Spiking LLMs model on single-cell transcriptomic data and PPI network, simultaneously |
 | [CellHermes-Multi-Task](https://huggingface.co/EthanGao123/CellHermes-Multi-Task-v1.0) | Instruction fine-tuning | Instruction-tuned model adapter with 7 databases across 10 tasks |
 | [CellHermes-T-Cell-Reactivity](https://huggingface.co/EthanGao123/CellHermes-T-Cell-Reactivity-v1.0) | Instruction fine-tuning | Instruction-tuned model adapter with T cell tumor-reactivity prediction task  |
+| [CellHermes-CoT-SFT](https://huggingface.co/EthanGao123/CellHermes-CoT-SFT) | Instruction fine-tuning | Instruction-tuned model adapter with CoT for T cell tumor-reactivity prediction task  |
+| [CellHermes-CoT-RL](https://huggingface.co/EthanGao123/CellHermes-CoT-RL) | Reinforcement learning | RL derived model adapter with CoT for T cell tumor-reactivity prediction task  |
 
 ### 📚 Data
 
