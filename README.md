@@ -151,7 +151,7 @@ python ./scripts/CellHermes_as_explainer_for_reasoning.py \
                     -o ./output/cell_tmp_reasoning.pkl
 ```
 ### 🌻 Acknowledgement
-We gratefully acknowledge the use some of codes from the following projects: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [scGPT](https://github.com/bowang-lab/scGPT), [GenePT](https://github.com/yiqunchen/GenePT). Our work builds upon their foundational contributions.
+We gratefully acknowledge the use some of codes from the following projects: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [verl](https://github.com/verl-project/verl), [scGPT](https://github.com/bowang-lab/scGPT), [GenePT](https://github.com/yiqunchen/GenePT). Our work builds upon their foundational contributions.
 
 ## 🔖 Citation  
 Yicheng Gao et al. Language may be all omics needs: Harmonizing multimodal data for omics understanding with CellHermes, biorxiv, 2025.
