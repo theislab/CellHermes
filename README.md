@@ -150,6 +150,8 @@ python ./scripts/CellHermes_as_explainer_for_reasoning.py \
                     -i "Given a T cell from metastatic melanoma patients with its top 100 highly expressed gene list, ranked by expression level: RGS1 CCL3 CCL4 CD69 JUNB HSP90AA1. You think that this T cell is Reactive. Please explain your reasoning." \
                     -o ./output/cell_tmp_reasoning.pkl
 ```
+To train a 'reason-then-answer' model (CellHermes-CoT-RL) in this case, please install verl and refer to the script tcr_reactivity_structured_reward.py in scripts, which is the reward function used for RL with verl.
+
 ### 🌻 Acknowledgement
 We gratefully acknowledge the use some of codes from the following projects: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [verl](https://github.com/verl-project/verl), [scGPT](https://github.com/bowang-lab/scGPT), [GenePT](https://github.com/yiqunchen/GenePT). Our work builds upon their foundational contributions.
 
