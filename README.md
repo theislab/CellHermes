@@ -56,6 +56,8 @@ unzip gene_level_downstream_tasks.zip
 unzip cell_level_downstream_tasks.zip
 unzip benchmarked_gene_embeddings.zip
 unzip benchmarked_cell_embeddings.zip
+unzip zero_shot_celltype_annotations.zip
+unzip t_cell_cot_reactivity_predicitons.zip
 ```
 
 ### 🌟 Overview
@@ -72,7 +74,9 @@ The overall directory structure of the project is as follows:
 │   ├── 📂 gene_level_downstream_tasks/         # datasets for gene level benchmarking datasets
 │   ├── 📂 cell_level_downstream_tasks/         # datasets for cell level benchmarking datasets
 │   ├── 📂 benchmarked_gene_embeddings/         # datasets of gene embeddings from various benchmarked models
-│   └── 📂 benchmarked_cell_embeddings/         # datasets of cell embeddings from various benchmarked models on various datasets
+│   ├── 📂 benchmarked_cell_embeddings/         # datasets of cell embeddings from various benchmarked models on various datasets
+│   ├── 📂 zero_shot_celltype_annotations/      # datasets of zero-shot cell type annotations across various single-cell datasets
+│   └── 📂 t_cell_cot_reactivity_predicitons/   # datasets of t cell reactivity cot prediction
 ├──  📂 model_ckpt/                             # store the pretrained checkpoints
 │   ├── 📂 LLaMA-3.1-8B-Instruct/               # Base open-source LLM model
 │   ├── 📂 CellHermes/                          # CellHermes model
