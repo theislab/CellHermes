@@ -77,7 +77,9 @@ The overall directory structure of the project is as follows:
 │   ├── 📂 LLaMA-3.1-8B-Instruct/               # Base open-source LLM model
 │   ├── 📂 CellHermes/                          # CellHermes model
 │   ├── 📂 CellHermes-Multi-Task/               # Multi-task CellHermes model
-└── └── 📂 CellHermes-T-Cell-Reactivity/        # T cell reactivity prediction model
+│   ├── 📂 CellHermes-T-Cell-Reactivity/        # T cell reactivity prediction model
+│   ├── 📂 CellHermes-CoT-SFT/                  # T cell reactivity prediction model
+└── └── 📂 CellHermes-CoT-RL/                   # T cell reactivity prediction model
 
 ```
 
